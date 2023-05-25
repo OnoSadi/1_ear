@@ -1,0 +1,492 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685002598787880, "dur":3434, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002598791328, "dur":297, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685002598791712, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685002598791769, "dur":699, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685002598792565, "dur":3236, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002598795802, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599428954, "dur":215, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429169, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429201, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429207, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429237, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429243, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429259, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429265, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429299, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429341, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599429900, "dur":11953, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685002598794172, "dur":1730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598795904, "dur":21024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598816955, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685002598817477, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598824722, "dur":6494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685002598831324, "dur":1529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598832864, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598832939, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598835786, "dur":1519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598837318, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598837343, "dur":4632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598842102, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685002598842539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598845223, "dur":5835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685002598851182, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598851587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002598851606, "dur":4221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1685002598855983, "dur":420982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685002599276977, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685002599276999, "dur":151300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685002599428400, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685002599428407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598793929, "dur":1895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598795878, "dur":21037, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598816955, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685002598816974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598821504, "dur":1657, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685002598823174, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685002598823629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598824803, "dur":6454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685002598831263, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685002598831708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598832120, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685002598836091, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685002598836389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598836564, "dur":5094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685002598841798, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685002598842347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598842371, "dur":5933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685002598848523, "dur":1694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685002598850231, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598850257, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685002598855033, "dur":10024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598865069, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598865798, "dur":6740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598872698, "dur":3373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685002598876085, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598876105, "dur":6626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685002598883432, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685002598884041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598889230, "dur":34360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685002598923762, "dur":1629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598925405, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598925428, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598929678, "dur":1303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598930994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598931015, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598933763, "dur":1430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598935204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598935223, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598939806, "dur":1999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598941869, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598941890, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598945344, "dur":2552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598947905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598947923, "dur":3913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598952017, "dur":2205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598954237, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598954262, "dur":3967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598958337, "dur":1565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598959915, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598959936, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598964364, "dur":2015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598966393, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598966417, "dur":5755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598972292, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598973742, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598973766, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598977251, "dur":1698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598978964, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598978988, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598982908, "dur":1900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598984822, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598984846, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598990565, "dur":2648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598993225, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002598993244, "dur":4467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002598997820, "dur":2218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599000060, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599000081, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599003770, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599005351, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599005371, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599009061, "dur":1855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599011029, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599011058, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599014905, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599016906, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599016928, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599020388, "dur":1537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599021938, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599021961, "dur":4361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599026442, "dur":1983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599028436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599028454, "dur":5320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599033869, "dur":3082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599036963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599036982, "dur":4745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599041822, "dur":1195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599043030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599043118, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599048125, "dur":2748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599050944, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599050969, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599055977, "dur":1629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599057620, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599057645, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599061572, "dur":1915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599063499, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599063521, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599070089, "dur":1753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599071856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599071880, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599076133, "dur":1615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599077759, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599077837, "dur":4389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599082327, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599083771, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599083792, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599088049, "dur":1739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599089795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599089811, "dur":20691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599110829, "dur":1898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599112740, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599112764, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599116703, "dur":4208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599120925, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599120949, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599125840, "dur":4439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599130290, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599130310, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599133605, "dur":10181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599143866, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599143890, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599150046, "dur":1652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599151712, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599151736, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599155717, "dur":2740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599158470, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599158530, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599167013, "dur":5622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599172652, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599172677, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599177144, "dur":2013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599179171, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599179196, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599183363, "dur":27072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599210449, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599210472, "dur":9391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599220027, "dur":5843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599225878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599225899, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599229525, "dur":16070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599245609, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599245632, "dur":10456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599256201, "dur":18194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599274407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599274516, "dur":19642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685002599294245, "dur":1551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599295808, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599296153, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599298798, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599300109, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599300134, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599303552, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599304622, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599304648, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599307618, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599308901, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599308929, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599312087, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599313298, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599313325, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599317433, "dur":2014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599319462, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599319490, "dur":47101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599366725, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599367054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599367074, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1685002599371697, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685002599371808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599371827, "dur":5688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685002599377604, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685002599377689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599377708, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685002599381958, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685002599382227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599382243, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685002599387623, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1685002599387902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599387920, "dur":5303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1685002599393336, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685002599393452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599393470, "dur":3532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685002599397263, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685002599397397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599397417, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685002599400829, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685002599401180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685002599401198, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685002599406163, "dur":22484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598794099, "dur":1785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598795885, "dur":21177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598817063, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685002598818640, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598822946, "dur":8297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685002598831333, "dur":4373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685002598835719, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598835742, "dur":10558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685002598846440, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685002598846979, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598847012, "dur":6707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685002598853852, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685002598854446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598854469, "dur":6650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685002598861264, "dur":17775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685002598879053, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598879073, "dur":15032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685002598894231, "dur":13455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598907700, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598908592, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598912726, "dur":5566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598918306, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598918657, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598922208, "dur":1601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598923823, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598923848, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598928030, "dur":1511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598929555, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598929581, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598933430, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598935210, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598935230, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598939842, "dur":2107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598941961, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598941981, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598945344, "dur":2102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598947461, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598947485, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598951715, "dur":2508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598954237, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598954262, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598958235, "dur":1233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598959482, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598959555, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598964120, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598965788, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598965811, "dur":5283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598971272, "dur":3067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598974349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598974370, "dur":8556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598983089, "dur":10789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002598993890, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002598993945, "dur":7199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599001231, "dur":2432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599003673, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599003692, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599007636, "dur":1742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599009393, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599009417, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599013716, "dur":1868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599015598, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599015622, "dur":5476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599021293, "dur":1756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599023139, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599023162, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599026862, "dur":3004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599029878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599029897, "dur":4621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599034607, "dur":3253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599037875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599037898, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599042852, "dur":2114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599044977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599044994, "dur":5030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599050131, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599051254, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599051319, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599055389, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599056447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599056470, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599061467, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599062780, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599062851, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599068169, "dur":1282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599069465, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599069489, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599072448, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599073895, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599073928, "dur":3241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599077259, "dur":2637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599079907, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599079927, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599082893, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599083825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599083837, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599087677, "dur":1758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599089446, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599089467, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599093746, "dur":2086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599095847, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599095918, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599100069, "dur":6628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599106714, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599106742, "dur":7051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599114314, "dur":4715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599119043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599119066, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599125108, "dur":2031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599127153, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599127176, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599130820, "dur":4012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599134844, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599134864, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599139885, "dur":4129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599144028, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599144052, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599148213, "dur":2729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599150955, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599150978, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599154556, "dur":4201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599158766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599158784, "dur":10711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599169632, "dur":29789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599199434, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599199458, "dur":25278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599224852, "dur":12804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599237670, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599237695, "dur":5868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599243677, "dur":54350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599298038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599298057, "dur":28378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685002599327098, "dur":1272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599328385, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599328412, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599331319, "dur":1816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599333147, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599333170, "dur":4232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599337493, "dur":1556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599339061, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599339159, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599341481, "dur":3002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599344493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599344511, "dur":4613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599349239, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685002599349360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599349378, "dur":5645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685002599355141, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685002599355278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599355301, "dur":9973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685002599365388, "dur":19501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599384903, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685002599384925, "dur":15889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685002599400948, "dur":27953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598794303, "dur":1653, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598795957, "dur":20967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598816955, "dur":3258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685002598820225, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598823467, "dur":8183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685002598831738, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685002598832058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598833893, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685002598837432, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685002598838980, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598839010, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685002598842591, "dur":2635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685002598845241, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598845621, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685002598850556, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685002598851010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598851039, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685002598855670, "dur":103414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598959097, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598959453, "dur":23563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598983149, "dur":3183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598986346, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598986369, "dur":5128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598991614, "dur":2587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598994213, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002598994232, "dur":4424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002598998753, "dur":4153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599002919, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599002940, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599006411, "dur":1833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599008256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599008277, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599012165, "dur":2229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599014407, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599014443, "dur":4676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599019425, "dur":1731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599021170, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599021194, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599026225, "dur":1304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599027543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599027565, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599030690, "dur":1513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599032215, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599032236, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599035683, "dur":2188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599037884, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599037905, "dur":4968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599042956, "dur":1571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599044539, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599044559, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599050001, "dur":1632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599051647, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599051672, "dur":5000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599056791, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599058014, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599058038, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599062194, "dur":1906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599064112, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599064136, "dur":5733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599069976, "dur":10711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599080698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599080718, "dur":6245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599087052, "dur":1835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599088898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599088918, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599093066, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599094198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599094221, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599099018, "dur":4817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599103849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599103873, "dur":6397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599110378, "dur":7018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599117410, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599117435, "dur":7445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599125095, "dur":36983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599162091, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599162147, "dur":13516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599175767, "dur":24737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599200517, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599200540, "dur":25276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599225925, "dur":6341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599232280, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599232303, "dur":10507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599242923, "dur":3255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599246186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599246202, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599251386, "dur":22311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599273711, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599273770, "dur":10599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685002599284513, "dur":1213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599285739, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599289446, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599293820, "dur":18341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599312753, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599312787, "dur":20875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599333750, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599334505, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599334527, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599339043, "dur":1152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599340207, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599340228, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":4, "ts":1685002599343635, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685002599343728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599343821, "dur":5616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685002599349658, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685002599349784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685002599349801, "dur":55058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Green user/Desktop/Baskethrow build/Baskethrow_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685002599405077, "dur":23398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685002599447234, "dur":7740, "ph":"X", "name": "ProfilerWriteOutput" }
+,
